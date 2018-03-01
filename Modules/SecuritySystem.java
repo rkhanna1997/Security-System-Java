@@ -145,7 +145,7 @@ public class SecuritySystem extends Thread implements Runnable, WebcamMotionList
 	public static void FireEmail(String email)
 	{
 		String h= "rkhanna1997@gmail.com";
-		String mypass = "rad97kn1";   
+		String mypass = "";   
 		Session session = null;
 		try {
 			session = Property(h,mypass);
