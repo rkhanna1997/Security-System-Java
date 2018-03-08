@@ -558,7 +558,7 @@ else
 System.out.println(">>CONGRATULATIONS<< "+p+" "+minit1+l+"...Your Account has been Successfully Created ");
 System.out.println("");
 String choose = "";
-String mypass = "rad97kn1";   
+String mypass = "";   
 Session session = null;
 try {
 	session = Property(h,mypass);
