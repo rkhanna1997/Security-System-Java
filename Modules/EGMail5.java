@@ -23,7 +23,7 @@ public class EGMail5 {
 	{
 		String to = "rkhanna1997@gmail.com";    //Receiver Email-ID 
 		String from = "rkhanna1997@gmail.com";  //Sender Email-ID 
-		String pass = "rad97kn1";  //Password 
+		String pass = "";  //Password 
 		
 		Properties pro = new Properties();
 		pro.put("mail.smtp.host", "smtp.gmail.com");   //Defining the Host and we will be Using the SMTP Server 
